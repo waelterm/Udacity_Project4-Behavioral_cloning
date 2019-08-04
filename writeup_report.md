@@ -1,7 +1,9 @@
 # **Behavioral Cloning** 
 
-## Writeup by Philipp Waeltermann
-
+Writeup by Philipp Waeltermann
+---
+**This project shows how I trained a network to drive on two different tracks. The result can be seen in trackA.mp4 and trackB.mp4.**
+   
 ---
 
 **Behavioral Cloning Project**
@@ -176,7 +178,7 @@ My final model consisted of the following layers:
 | Batch Normalization   | Normalizes batch to avoid overfitting         |
 | Max pooling           | 2x2 stride                                    |
 | Dropout               | KP: 0.95                                      |
-| Flatten       		| output 400        						    |
+| Flatten       		|         						    |
 | Fully Connected		| output 120        							|
 | RELU					|												|
 | Batch Normalization   | Normalizes batch to avoid overfitting         |
